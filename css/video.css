@@ -1,0 +1,67 @@
+body {
+  font-family: 'Sackers Gothic Std';
+  font-size: 15px;
+}
+
+/*- per importare il font -*/
+@font-face {
+    font-family: 'Sackers Gothic Std';
+    src:url('./font/SackersGothicStd-Medium.woff2') format('woff2'),
+        url('./font/SackersGothicStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+.navbar {
+  justify-content: space-between;
+  max-width: 100%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.barnav {
+  display: inline-block;
+  font-size: 2em;
+}
+
+.barnav a {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.socialimg {
+  width: 20%;
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+}
+
+.singleVideo {
+  padding: 2% 2%;
+}

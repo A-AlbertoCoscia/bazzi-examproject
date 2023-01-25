@@ -1,0 +1,89 @@
+body {
+  font-family: 'Sackers Gothic Std';
+  font-size: 15px;
+}
+
+/*- per importare il font -*/
+@font-face {
+    font-family: 'Sackers Gothic Std';
+    src:url('./font/SackersGothicStd-Medium.woff2') format('woff2'),
+        url('./font/SackersGothicStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+.navbar {
+  justify-content: space-between;
+  max-width: 100%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.barnav {
+  display: inline-block;
+  font-size: 2em;
+}
+
+.barnav a {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.socialimg {
+  width: 20%;
+}
+
+.gigs {
+  display: flex;
+  flex-direction: column;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.singleDate {
+  margin-bottom: 5%;
+}
+
+#ticketslink1:hover, #ticketslink2:hover {
+  color: white;
+  background-color: black;
+}
+
+.date:hover, .venue:hover, .location:hover {
+  color: white;
+  background-color: black;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#email {
+  margin-top: 2%;
+}

@@ -1,0 +1,154 @@
+body {
+  font-family: 'Sackers Gothic Std';
+  font-size: 15px;
+}
+
+/*- per importare il font -*/
+@font-face {
+    font-family: 'Sackers Gothic Std';
+    src:url('./font/SackersGothicStd-Medium.woff2') format('woff2'),
+        url('./font/SackersGothicStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.coverimg {
+  max-width: 75%;
+  max-height: 50%;
+  margin-top: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 7em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.socialimg {
+  width: 20%;
+}
+
+a {
+  color: black;
+}
+
+/*- i link prendono questo colore se sono stati già cliccati -*/
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+.navbar {
+  justify-content: space-between;
+  max-width: 100%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.barnav {
+  display: inline-block;
+  font-size: 2em;
+}
+
+.barnav a {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+  margin-top: 3%;
+}
+
+.singleitem {
+  margin-top: 20px;
+}
+
+figcaption {
+  margin-top: 5%;
+  font-weight: bold;
+  text-align: center;
+}
+
+figcaption:hover {
+  background-color: black;
+  color: white;
+}
+
+.albumcover {
+  max-width: 330px;
+  max-height: 330px;
+}
+
+.shopitem {
+  max-width: 300px;
+  height: 280px;
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.singleVideo {
+  padding: 2% 2%;
+}
+
+.gigs {
+  display: flex;
+  flex-direction: column;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.singleDate {
+  margin-bottom: 5%;
+}
+
+#ticketslink1:hover, #ticketslink2:hover {
+  color: white;
+  background-color: black;
+}
+
+.date:hover, .venue:hover, .location:hover {
+  color: white;
+  background-color: black;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#email {
+  margin-top: 2%;
+}
